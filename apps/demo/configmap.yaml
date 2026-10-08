@@ -3,5 +3,6 @@ kind: ConfigMap
 metadata:
   name: demo-config
 data:
+  # Log verbosity: debug, info, warn, error
   LOG_LEVEL: info
   FEATURE_X_ENABLED: "false"
