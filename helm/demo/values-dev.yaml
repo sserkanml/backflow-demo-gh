@@ -1,11 +1,11 @@
-# Development environment (edited by the Backflow e2e test).
+# Development environment. Used by the Application demo-helm.
 replicaCount: 2
 
 image:
   tag: 1.27-alpine
 
 global:
-  region: us-west-2
+  region: eu-central-1
 
 config:
   # Log verbosity: debug, info, warn, error, trace
