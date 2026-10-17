@@ -15,6 +15,7 @@ spec:
     metadata:
       labels:
         app: demo-helm
+        app.kubernetes.io/version: {{ .Values.image.tag | quote }}
     spec:
       containers:
         - name: web
