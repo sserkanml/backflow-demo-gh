@@ -6,7 +6,7 @@ image:
   tag: 1.27-alpine
 
 global:
-  region: us-east-2
+  region: us-east-1
 
 config:
   logLevel: warn
