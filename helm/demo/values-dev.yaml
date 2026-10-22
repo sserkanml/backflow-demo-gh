@@ -1,5 +1,5 @@
 # Development environment. Used by the Application demo-helm.
-replicaCount: 3
+replicaCount: 4
 
 image:
   tag: 1.27-alpine
