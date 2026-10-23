@@ -1,4 +1,4 @@
-# Development environment (edited by the Backflow e2e test).
+# Development environment. Used by the Application demo-helm.
 replicaCount: 2
 
 image:
