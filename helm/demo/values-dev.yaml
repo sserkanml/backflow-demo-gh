@@ -23,13 +23,3 @@ config:
 # Values of the subchart demo-sidecar.
 demo-sidecar:
   timeoutSeconds: 45
-
-# Pod annotations and extra env vars of the development environment.
-podAnnotations:
-  team: platform
-  tier: web
-extraEnvVars:
-  - name: DEMO_MODE
-    value: "on"
-  - name: DEMO_LEVEL
-    value: "3"
