@@ -1,0 +1,12 @@
+{
+  "apiVersion": "v1",
+  "kind": "ConfigMap",
+  "metadata": {
+    "name": "demo-json",
+    "namespace": "demo"
+  },
+  "data": {
+    "GREETING": "hello",
+    "LOG_LEVEL": "info"
+  }
+}
