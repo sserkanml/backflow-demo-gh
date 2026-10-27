@@ -1,2 +1,0 @@
-# Chart defaults. The parent chart overrides them under the key demo-sidecar.
-timeoutSeconds: 30

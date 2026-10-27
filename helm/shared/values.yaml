@@ -1,2 +1,0 @@
-# Chart defaults. The services override them in services/<name>/dev.yaml.
-logLevel: info
