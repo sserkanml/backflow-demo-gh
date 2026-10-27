@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-helm-sidecar
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app.kubernetes.io/name: demo-sidecar
+    app.kubernetes.io/instance: {{ .Release.Name }}
+data:
+  TIMEOUT_SECONDS: {{ .Values.timeoutSeconds | quote }}
