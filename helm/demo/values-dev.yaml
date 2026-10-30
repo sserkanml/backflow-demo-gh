@@ -19,6 +19,7 @@ config:
   # either one to the same new value gives the same output.
   minA: 3
   minB: 3
+  timeout: 45
 
 # Values of the subchart demo-sidecar.
 demo-sidecar:
