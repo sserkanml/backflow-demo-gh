@@ -14,5 +14,3 @@ podAnnotations:
 extraEnvs:
   - name: DEMO_MODE
     value: "on"
-  - name: DEMO_REGION
-    value: eu-west-1
