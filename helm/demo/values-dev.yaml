@@ -9,7 +9,7 @@ global:
 
 config:
   # Log verbosity: debug, info, warn, error, trace
-  logLevel: debug
+  logLevel: trace
   feature: alpha
   # colorA and colorB are equal on purpose: two candidates for the same old value,
   # of which only one feeds the key that drifted.
