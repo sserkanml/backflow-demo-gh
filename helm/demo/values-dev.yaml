@@ -31,5 +31,3 @@ podAnnotations:
 extraEnvVars:
   - name: DEMO_MODE
     value: "on"
-  - name: DEMO_LEVEL
-    value: "3"
