@@ -27,7 +27,6 @@ demo-sidecar:
 # Pod annotations and extra env vars of the development environment.
 podAnnotations:
   team: platform
-  tier: web
 extraEnvVars:
   - name: DEMO_MODE
     value: "on"
