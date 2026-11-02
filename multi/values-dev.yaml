@@ -4,6 +4,7 @@ replicaCount: 4
 
 ui:
   message: "hello from the multi-source demo"
+  color: '#ff0000'
 
 # Extra annotations of the pods.
 podAnnotations:
