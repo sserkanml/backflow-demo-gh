@@ -1,11 +1,11 @@
-# Development environment (edited by the Backflow e2e test).
-replicaCount: 4
+# Development environment. Used by the Application demo-helm.
+replicaCount: 2
 
 image:
   tag: 1.27-alpine
 
 global:
-  region: us-west-2
+  region: eu-central-1
 
 config:
   # Log verbosity: debug, info, warn, error, trace
@@ -23,13 +23,3 @@ config:
 # Values of the subchart demo-sidecar.
 demo-sidecar:
   timeoutSeconds: 45
-
-# Pod annotations and extra env vars of the development environment.
-podAnnotations:
-  team: platform
-  tier: web
-extraEnvVars:
-  - name: DEMO_MODE
-    value: "on"
-  - name: DEMO_LEVEL
-    value: "3"
