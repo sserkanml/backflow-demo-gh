@@ -5,3 +5,4 @@ images:
   newTag: 1.27-alpine
 patches:
 - path: replicas.yaml
+- path: backflow-patches/deployment-demo-kustomize.yaml
