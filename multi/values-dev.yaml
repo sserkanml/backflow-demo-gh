@@ -8,7 +8,6 @@ ui:
 # Extra annotations of the pods.
 podAnnotations:
   team: platform
-  owner: backflow-demo
 
 # Extra environment variables of the container.
 extraEnvs:
