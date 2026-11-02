@@ -2,6 +2,6 @@ resources:
 - ../../base
 images:
 - name: nginxinc/nginx-unprivileged
-  newTag: 1.28-alpine
+  newTag: 1.27-alpine
 patches:
 - path: replicas.yaml
