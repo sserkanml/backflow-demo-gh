@@ -22,4 +22,4 @@ config:
 
 # Values of the subchart demo-sidecar.
 demo-sidecar:
-  timeoutSeconds: 45
+  timeoutSeconds: 60
