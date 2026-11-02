@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deployment # edited by the Backflow e2e test
+kind: Deployment
 metadata:
   name: demo-kustomize
 spec:
