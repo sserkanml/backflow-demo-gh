@@ -6,7 +6,7 @@
     "namespace": "demo"
   },
   "data": {
-    "GREETING": "hello",
+    "GREETING": "howdy",
     "LOG_LEVEL": "info"
   }
 }
