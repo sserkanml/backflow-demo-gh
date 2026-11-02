@@ -4,5 +4,5 @@ metadata:
   name: demo-config
 data:
   # Log verbosity: debug, info, warn, error, trace
-  LOG_LEVEL: warn
+  LOG_LEVEL: error
   FEATURE_X_ENABLED: "false"
