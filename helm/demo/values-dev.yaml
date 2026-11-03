@@ -5,7 +5,7 @@ image:
   tag: 1.27-alpine
 
 global:
-  region: eu-central-1
+  region: us-west-2
 
 config:
   # Log verbosity: debug, info, warn, error, trace
