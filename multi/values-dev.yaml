@@ -1,6 +1,6 @@
 # Development values of the multi-source demo (Application demo-multi): the chart
 # podinfo comes from ghcr.io, and this file is its $values/multi/values-dev.yaml.
-replicaCount: 4
+replicaCount: 6
 
 ui:
   message: "hello from the multi-source demo"
