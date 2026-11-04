@@ -2,7 +2,7 @@
 replicaCount: 2
 
 image:
-  tag: 1.27-alpine
+  tag: 1.28-alpine
 
 global:
   region: us-west-2
