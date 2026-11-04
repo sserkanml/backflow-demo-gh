@@ -8,11 +8,8 @@ ui:
 # Extra annotations of the pods.
 podAnnotations:
   team: platform
-  owner: backflow-demo
 
 # Extra environment variables of the container.
 extraEnvs:
   - name: DEMO_MODE
     value: "on"
-  - name: DEMO_REGION
-    value: eu-west-1
